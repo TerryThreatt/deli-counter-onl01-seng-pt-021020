@@ -1,7 +1,7 @@
 # Write your code here.
 require 'pry'
 def line(katz_deli)
-   binding.pry 
+  binding.pry 
   cur_line = []
   count = 1
   if katz_deli < 1 
