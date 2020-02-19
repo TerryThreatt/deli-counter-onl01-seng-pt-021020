@@ -5,7 +5,7 @@ def line(katz_deli)
   count = 1
   if katz_deli >= 1 
     katz_deli.each do |name|
-      cur_line.push("#{counter}. #{name}")
+      cur_line.push("#{count}. #{name}")
       counter += 1
       puts "The line is currently: #{cur_line.join(" ")}"
   else 
