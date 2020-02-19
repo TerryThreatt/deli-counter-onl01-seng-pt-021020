@@ -7,8 +7,9 @@ def line(array)
       cur_line.push("#{count}. #{name}")
       count += 1
     end
+    puts "The line is currently: #{cur_line.join("")}"
   else 
-    puts "The line is crrently empty."
+    puts "The line is currently empty."
   end 
 end
   
