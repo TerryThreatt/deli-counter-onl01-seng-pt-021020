@@ -1,6 +1,7 @@
 # Write your code here.
-
-def line(katz_deli) 
+require 'pry'
+def line(katz_deli)
+   binding.pry 
   cur_line = []
   count = 1
   if katz_deli < 1 
