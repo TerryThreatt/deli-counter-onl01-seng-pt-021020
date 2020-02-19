@@ -4,7 +4,7 @@ def line(array)
     cur_line = []
     count = 1
     array.each do |name|
-      cur_line << "#{count}. #{name}"
+      cur_line.push ("#{count}. #{name}")
       count += 1
     end
   else 
