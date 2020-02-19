@@ -6,6 +6,7 @@ def line(array)
     array.each do |name|
       cur_line << "#{count}. #{name}"
       count += 1
+    end
   else 
     puts "The line is crrently empty."
   end 
