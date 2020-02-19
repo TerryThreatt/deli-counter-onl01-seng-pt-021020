@@ -8,7 +8,7 @@ def line(katz_deli)
       cur_line.push("#{counter}. #{name}")
       counter += 1
   end 
-    puts ""
+    puts "The line is currently: #{cur_line.join(" ")}"
   else 
     puts "The line is currently empty."
   end 
