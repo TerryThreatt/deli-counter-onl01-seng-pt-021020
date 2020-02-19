@@ -3,7 +3,7 @@
 def line(katz_deli) 
   cur_line = []
   count = 1
-  if katz_deli >= 1 
+  if katz_deli > 0 
     katz_deli.each do |name|
       cur_line.push("#{count}. #{name}")
       count += 1
